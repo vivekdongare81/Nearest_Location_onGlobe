@@ -43,5 +43,5 @@ git clone < repo link >
 |     Referred Links                                                                  |
 |  ------------------------------------------------------------------ |
 | [https://youtu.be/BK5x7IUTIyU](https://youtu.be/BK5x7IUTIyU)|
-| [[https://youtu.be/BK5x7IUTIyU](https://algorist.com/problems/Kd-Trees.html)]([https://youtu.be/BK5x7IUTIyU](https://algorist.com/problems/Kd-Trees.html))|
+| [https://algorist.com/problems/Kd-Trees.html](https://algorist.com/problems/Kd-Trees.html)|
 
