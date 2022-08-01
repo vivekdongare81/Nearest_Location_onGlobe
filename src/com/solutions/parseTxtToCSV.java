@@ -27,16 +27,12 @@ public class parseTxtToCSV {
 	        BufferedWriter writer = null;
 	        
 	        Map<String,String> output = new HashMap<>();
-			/*
-			 * SortedMap<Integer, String> sm = new TreeMap<Integer, String>();
-			 */
+		
 	        String st;
 	    
 	        int i =0;
 	        while ((st = reader.readLine()) != null) {
-	        	  // Print the string
-	            //System.out.println(st);
-	        	
+	        
 	            String []arr = st.replaceAll(",", "-").split("\t");
 	            //System.out.println(Arrays.toString(arr)+arr.length);
 	            
@@ -56,7 +52,5 @@ public class parseTxtToCSV {
             
 	       System.out.println("Parsing done");
 	 
-	          
-	    
 	}
 }
