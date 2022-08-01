@@ -1,7 +1,6 @@
 package com.solutions;
 
 import java.io.BufferedReader;
-
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
@@ -15,7 +14,6 @@ public class Haversine_Dist {
     public static void main(String[] args) throws IOException {
 
         long start = System.currentTimeMillis();
-        ;
 
         // TODO Auto-generated method stub
         File file = new File("C:\\Users\\donga\\eclipse-workspace\\Nearest_Location\\dataSet.csv");
