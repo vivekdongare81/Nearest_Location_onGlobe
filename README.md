@@ -8,12 +8,12 @@ SubTasks - Clean and parse given dataSet of .Txt file to CSV
 
 - Java SE 8 (JDK 1.8)
 
- ##Demo 
+#Demo 
 
-Solution 1 - com/solutions/Haversine_Dist.java
+Solution 1 - com/solutions/Haversine_Dist.java \n
              Loop throughout the data and parallely Calculate the Distance from Given the Location to each Lat-Long Pair, Keep Track of Least Distance Found.
              Time Comp. - O(n) ,where n is Total Number of loacations. [SEARCH]
-             Real Time - 1213ms
+             Real Time - 1219ms
              
  ![image](https://user-images.githubusercontent.com/74758376/182136745-69f02b2c-26dd-44cc-9364-8320f4f7a914.png)
 
