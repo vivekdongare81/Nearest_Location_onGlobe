@@ -1,8 +1,8 @@
 # Nearest_Location_onGlobe
 Problem Statement - Find the Nearest location (Latitude-Longitude Pair) from given Dataset of around 8 Lakh records after parsing and cleaning given Raw .Txt file
 
-SubTasks - Clean and parse given dataSet of .Txt file to CSV
-         - According to given input Location, Find exact Loc if exits else find Nearest Location in Optimize way.
+SubTasks - Clean and parse given dataSet of .txt file to CSV
+         - According to given input Location, Find exact Loc if exits else find Nearest Location in a Optimize way.
          
 ## Prerequisite 
 
@@ -14,7 +14,7 @@ SubTasks - Clean and parse given dataSet of .Txt file to CSV
 Solution 1 - src/com/solutions/Haversine_Dist.java <br/>
              - Loop throughout the data and parallely Calculate the Distance from Given the Location to each Lat-Long Pair, Keep Track of Least Distance Found. <br/>
              Time Comp. - O(n) ,where n is Total Number of loacations. [SEARCH] <br/>
-             Real Time - 1219ms
+             Real Time - 1219 ms
              
  ![image](https://user-images.githubusercontent.com/74758376/182136745-69f02b2c-26dd-44cc-9364-8320f4f7a914.png)
 
