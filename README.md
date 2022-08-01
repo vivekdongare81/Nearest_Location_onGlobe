@@ -8,19 +8,20 @@ SubTasks - Clean and parse given dataSet of .Txt file to CSV
 
 - Java SE 8 (JDK 1.8)
 
-#Demo 
+         
+## Demo 
 
-Solution 1 - com/solutions/Haversine_Dist.java \n
-             Loop throughout the data and parallely Calculate the Distance from Given the Location to each Lat-Long Pair, Keep Track of Least Distance Found.
-             Time Comp. - O(n) ,where n is Total Number of loacations. [SEARCH]
+Solution 1 - com/solutions/Haversine_Dist.java <br/>
+             Loop throughout the data and parallely Calculate the Distance from Given the Location to each Lat-Long Pair, Keep Track of Least Distance Found. <br/>
+             Time Comp. - O(n) ,where n is Total Number of loacations. [SEARCH] <br/>
              Real Time - 1219ms
              
  ![image](https://user-images.githubusercontent.com/74758376/182136745-69f02b2c-26dd-44cc-9364-8320f4f7a914.png)
 
-Solution 2 - com/soultions/TwoD_BinaryTree.java
-            Store the data into Binary Trees in such a way that it represent 2D arrangements of Points by partitioning it on the basis of alternate x and y co-ordinates
-            Time Comp. - O(log h) , where h is height of Binary tree
-            Real Time - 41 ms
+Solution 2 - com/soultions/TwoD_BinaryTree.java <br/>
+            Store the data into Binary Trees in such a way that it represent 2D arrangements of Points by partitioning it on the basis of alternate x and y co-ordinates <br/>
+            Time Comp. - O(log h) , where h is height of Binary tree <br/>
+            Real Time - 41 ms  
             
 ![image](https://user-images.githubusercontent.com/74758376/182138032-35b8de6e-795d-44da-b8cd-f348e87209af.png)
 
