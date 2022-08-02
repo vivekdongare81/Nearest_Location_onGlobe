@@ -203,11 +203,11 @@ public class TwoD_BinaryTree {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter Latitude :");
-        double lat = (double) Float.parseFloat("1.3272"); // TODO- sc.nextLine()
+        double lat = (double) Float.parseFloat(sc.nextLine()); // Ex - "1.3272"
         System.out.println(lat);
 
         System.out.println("Enter Longitude :");
-        double longi = (double) Float.parseFloat("103.7111"); // TODO- sc.nextLine()
+        double longi = (double) Float.parseFloat(sc.nextLine()); // Ex - "103.7111"
         System.out.println(longi);
 
         String st = "";
