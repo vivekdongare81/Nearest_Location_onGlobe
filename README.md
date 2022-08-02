@@ -12,7 +12,7 @@ SubTasks <br/> - Clean and parse given dataSet of .txt file to CSV <br/>
 ## Demo 
 
 Solution 1 - src/com/solutions/Haversine_Dist.java <br/>
-             - Loop throughout the data and parallely Calculate the Distance from Given the Location to each Lat-Long Pair, Keep Track of Least Distance Found. <br/>
+             - Loop throughout the data and parallely Calculate the Distance from the given Location to each Lat-Long Pair, Keep Track of Least Distance Found. <br/>
              Time Comp. - O(n) ,where n is Total Number of loacations. [SEARCH] <br/>
              Real Time - 1219 ms
              
@@ -20,7 +20,7 @@ Solution 1 - src/com/solutions/Haversine_Dist.java <br/>
 
 Solution 2 - src/com/solutions/TwoD_BinaryTree.java <br/>
             - Store the data into Binary Trees in such a way that it represent 2D arrangements of Points by partitioning it on the basis of alternate x and y co-ordinates <br/>
-            Time Comp. - O(log h) , where h is height of Binary tree <br/>
+            Time Comp. - O(log h) , where h is height of Binary tree [ SEARCH ] <br/>
             Real Time - 41 ms  
             
 ![image](https://user-images.githubusercontent.com/74758376/182138032-35b8de6e-795d-44da-b8cd-f348e87209af.png)
